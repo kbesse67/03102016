@@ -1,0 +1,19 @@
+/*Style css*/
+
+
+@import 'settings';
+
+
+body {
+  background:yellow;
+  color:black;
+
+}
+
+ul li a {
+    color:green;
+
+    &.bleu {
+      color:$rouge;
+    }
+}
